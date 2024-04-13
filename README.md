@@ -1,4 +1,7 @@
 # Assignment5
+
+## Architectural Diagram
+![image](https://github.com/BigDataIA-Spring2024-Sec2-Team4/Assignment5/assets/145082704/501a51ee-a3e5-4093-ab01-e4e27e3ae316)
 ## Problem Statement:
 Development of a Structured Database and Text Extraction System for Finance Professional Development Resources
 
@@ -37,5 +40,48 @@ Utilize Pinecone and OpenAI APIs to create knowledge summaries, generate a conte
 
 By completing these tasks, we aim to evaluate different approaches for knowledge retrieval and question answering using MaaS APIs, contributing valuable insights for enterprise applications.
 
-## Architectural Diagram
-![image](https://github.com/BigDataIA-Spring2024-Sec2-Team4/Assignment5/assets/145082704/501a51ee-a3e5-4093-ab01-e4e27e3ae316)
+
+## To run the application locally, follow these steps:
+
+1. **Clone the Repository**: Clone the repository onto your local machine.
+
+   ```bash
+   git clone https://github.com/BigDataIA-Spring2024-Sec1-Team4/Assignment5
+   ```
+
+2. **Create a Virtual Environment**: Set up a virtual environment to isolate project dependencies.
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Activate the Virtual Environment**: Activate the virtual environment.
+
+   - **Windows**:
+
+     ```bash
+     venv\Scripts\activate
+     ```
+
+   - **Unix or MacOS**:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Run MakeFile to start Docker Compose**: Start the Docker containers using Docker Compose.
+
+   ```bash
+   cd Assignment5
+   make build-up
+   ```
+
+5. **Access Streamlit Interface**: Open your web browser and go to `34.75.0.13:8000` to access the Streamlit interface.
+
+6. **Step1**: On the Streamlit homepage,Users can select a topic from the available topics. generate summaery and save it in pinecone.
+
+7. **Step2 Question_Generation_Page.**:Users can select topics from a dropdown menu and specify the number of questions to generate. Upon clicking the "Generate Questions" button, save data in pinecone
+8. **Step3 Question Answers Report** :Upon clicking the "Run QA Workflow" button, the script loads questions from a JSON file and displayes results
+9. **Step4 LOS Answers** :  Upon clicking the "Generate Report" button, Generates a pie chart for each topic depicting the distribution of correct and incorrect answers.
+
+
