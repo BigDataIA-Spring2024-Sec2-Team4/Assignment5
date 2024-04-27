@@ -86,4 +86,12 @@ By completing these tasks, we aim to evaluate different approaches for knowledge
 8. **Step3 Question Answers Report** :Upon clicking the "Run QA Workflow" button, the script loads questions from a JSON file and displayes results
 9. **Step4 LOS Answers** :  Upon clicking the "Generate Report" button, Generates a pie chart for each topic depicting the distribution of correct and incorrect answers.
 
+5. ## Team Information and Contribution
+
+| Name       | Contribution % | Contributions                             |
+|------------|----------------|-------------------------------------------|
+| Riya Singh  | 40%            | ContentPDFClass, Schema design, Pydantic validation, Testing with Pytest, Architecture Diagram, README |
+| Nidhi Nitin Kulkarani   | 33%            | URLClass, DBT transformation, Schema design, Pydantic validation, Testing with Pytest |
+| Deepakraja Rajendran   | 27%            | MetaDataPDFClass, Snowflake Integration, Pydantic validation, Testing with Pytest, README |
+
 
