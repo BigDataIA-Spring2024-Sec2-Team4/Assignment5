@@ -90,8 +90,8 @@ By completing these tasks, we aim to evaluate different approaches for knowledge
 
 | Name       | Contribution % | Contributions                             |
 |------------|----------------|-------------------------------------------|
-| Riya Singh  | 40%            | ContentPDFClass, Schema design, Pydantic validation, Testing with Pytest, Architecture Diagram, README |
-| Nidhi Nitin Kulkarani   | 33%            | URLClass, DBT transformation, Schema design, Pydantic validation, Testing with Pytest |
-| Deepakraja Rajendran   | 27%            | MetaDataPDFClass, Snowflake Integration, Pydantic validation, Testing with Pytest, README |
+| Riya Singh  | 40%            | PART2, PART3, PART4 |
+| Nidhi Nitin Kulkarani   | 33%            | PART1, Documentation |
+| Deepakraja Rajendran   | 27%            | Streamlit |
 
 
